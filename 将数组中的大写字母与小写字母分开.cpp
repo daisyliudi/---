@@ -13,6 +13,7 @@ bool isLower(char a)
 {
 	if (a >= 'a'&&a <= 'z')
 		return true;
+	return false;
 }
 void partition(char A[], int start, int end)
 {
